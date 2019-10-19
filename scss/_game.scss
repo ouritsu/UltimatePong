@@ -1,9 +1,46 @@
-div.wrapper {
-  width: 100vw;
-  height: 100vh;
+body {
+  // background-color: var(--mainFontColor);
   background-color: var(--mainBGColor);
-  // background-color: #1C201C;
+}
+
+div.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  // flex-basis: 30vh;
+  width: 100vw;
+  max-width: 900px;
+  height: 100vh;
+  // background-color: var(--mainBGColor);
+  background-color: var(--mainFontColor);
   color: var(--mainFontColor);
-  // color: #CBC411;
-  font-size: 60px;
+
+  header {
+    h2 {
+      width: 100%;
+      line-height: 20vh;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 48px;
+      text-align: center;
+      letter-spacing: 1.2rem;
+
+      color: var(--mainBGColor);
+      background-color: var(--mainFontColor);
+
+      color: var(--mainFontColor); //TEST
+      background-color: var(--mainBGColor); //TEST
+    }
+  }
+
+  main {
+    height: 70vh;
+    background-color: var(--mainBGColor);
+    background-color: var(--mainFontColor);
+  }
+
+  footer {
+    height: 10vh;
+    background-color: var(--mainFontColor);
+    background-color: var(--mainBGColor);
+  }
 }

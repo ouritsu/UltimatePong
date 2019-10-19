@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap&subset=latin-ext");
-@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Fugaz+One&display=swap");
 * {
   margin: 0;
@@ -13,11 +12,48 @@
   --mainFontColor: #1C201C;
 }
 
-div.wrapper {
-  width: 100vw;
-  height: 100vh;
+body {
   background-color: var(--mainBGColor);
+}
+
+div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 900px;
+  height: 100vh;
+  background-color: var(--mainFontColor);
   color: var(--mainFontColor);
-  font-size: 60px;
+}
+
+div.wrapper header h2 {
+  width: 100%;
+  line-height: 20vh;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 1.2rem;
+  color: var(--mainBGColor);
+  background-color: var(--mainFontColor);
+  color: var(--mainFontColor);
+  background-color: var(--mainBGColor);
+}
+
+div.wrapper main {
+  height: 70vh;
+  background-color: var(--mainBGColor);
+  background-color: var(--mainFontColor);
+}
+
+div.wrapper footer {
+  height: 10vh;
+  background-color: var(--mainFontColor);
+  background-color: var(--mainBGColor);
 }
 /*# sourceMappingURL=style.css.map */
