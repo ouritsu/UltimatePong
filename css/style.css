@@ -1,5 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fugaz+One&display=swap");
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --mainBGColor: #CBC411;
+  --mainFontColor: #1C201C;
+}
+
+div.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--mainBGColor);
+  color: var(--mainFontColor);
+  font-size: 60px;
 }
 /*# sourceMappingURL=style.css.map */

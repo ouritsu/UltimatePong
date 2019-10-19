@@ -1,8 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX",
+    "mappings": "AEAA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,mEAAI;AACZ,OAAO,CAAC,qEAAI;ADFZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;ACAD,AAAA,KAAK,CAAC;EACJ,aAAa,CAAA,QAAC;EACd,eAAe,CAAA,QAAC;CACjB;;ACPD,AAAA,GAAG,AAAA,QAAQ,CAAC;EACV,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,kBAAkB;EAEpC,KAAK,EAAE,oBAAoB;EAE3B,SAAS,EAAE,IAAI;CAChB",
     "sources": [
-        "../scss/style.scss"
+        "../scss/style.scss",
+        "../scss/_reset.scss",
+        "../scss/_variables_fonts.scss",
+        "../scss/_game.scss"
     ],
     "names": [],
     "file": "style.css"
