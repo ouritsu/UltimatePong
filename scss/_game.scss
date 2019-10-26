@@ -24,8 +24,8 @@ div.wrapper {
       text-align: center;
       letter-spacing: 1.2rem;
 
-      color: var(--mainBGColor);
-      background-color: var(--mainFontColor);
+      // color: var(--mainBGColor);
+      // background-color: var(--mainFontColor);
 
       color: var(--mainFontColor); //TEST
       background-color: var(--mainBGColor); //TEST
@@ -34,13 +34,75 @@ div.wrapper {
 
   main {
     height: 70vh;
-    background-color: var(--mainBGColor);
+    // background-color: var(--mainBGColor);
     background-color: var(--mainFontColor);
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      height: 70vh;
+      justify-content: space-evenly;
+
+      .labels {
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        label {
+          // align-items: flex-start;
+          // background-color: #fff;
+          // display: block;
+          width: 100%;
+          height: 16.6666%;
+          // margin: auto auto;
+          padding-left: 10px;
+          color: var(--mainBGColor);
+          // background-color: royalblue;
+
+          font-size: 40px;
+          // line-height: 16.6666%;
+          letter-spacing: 1px;
+          font-family: 'Staatliches', cursive;
+          line-height: 11.6666vh;
+        }
+      }
+
+      .inputs {
+        width: 30%;
+
+        div.input {
+          line-height: 11.6666vh;
+          // height: 16.6666%;
+          width: 100%;
+          color: var(--mainBGColor);
+
+          // background-color: blue;
+        }
+
+        input[type="text"] {
+          height: 30px;
+          // line-height: 11.6666vh;
+          width: 200px;
+          background-color: white;
+          // border: 1px solid rgb(65, 65, 65); 
+          border: 1px solid var(--mainBGColor);
+          color: rgb(65, 65, 65);
+          text-align: center;
+          box-shadow: -4px 4px white, inset -3px 3px black;
+          // box-shadow: -4px 4px rgba(255, 255, 255, 0.671), inset -3px 3px rgb(255, 235, 0);
+        }
+      }
+
+      .button {
+        position: absolute;
+      }
+    }
   }
 
   footer {
     height: 10vh;
-    background-color: var(--mainFontColor);
+    // background-color: var(--mainFontColor);
     background-color: var(--mainBGColor);
   }
 }

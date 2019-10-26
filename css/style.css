@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Staatliches&display=swap&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Fugaz+One&display=swap");
 * {
   margin: 0;
@@ -39,21 +40,79 @@ div.wrapper header h2 {
   font-size: 48px;
   text-align: center;
   letter-spacing: 1.2rem;
-  color: var(--mainBGColor);
-  background-color: var(--mainFontColor);
   color: var(--mainFontColor);
   background-color: var(--mainBGColor);
 }
 
 div.wrapper main {
   height: 70vh;
-  background-color: var(--mainBGColor);
   background-color: var(--mainFontColor);
+}
+
+div.wrapper main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 70vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div.wrapper main form .labels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.wrapper main form .labels label {
+  width: 100%;
+  height: 16.6666%;
+  padding-left: 10px;
+  color: var(--mainBGColor);
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: 'Staatliches', cursive;
+  line-height: 11.6666vh;
+}
+
+div.wrapper main form .inputs {
+  width: 30%;
+}
+
+div.wrapper main form .inputs div.input {
+  line-height: 11.6666vh;
+  width: 100%;
+  color: var(--mainBGColor);
+}
+
+div.wrapper main form .inputs input[type="text"] {
+  height: 30px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid var(--mainBGColor);
+  color: #414141;
+  text-align: center;
+  -webkit-box-shadow: -4px 4px white, inset -3px 3px black;
+          box-shadow: -4px 4px white, inset -3px 3px black;
+}
+
+div.wrapper main form .button {
+  position: absolute;
 }
 
 div.wrapper footer {
   height: 10vh;
-  background-color: var(--mainFontColor);
   background-color: var(--mainBGColor);
 }
 /*# sourceMappingURL=style.css.map */
